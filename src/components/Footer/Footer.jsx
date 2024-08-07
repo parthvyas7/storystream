@@ -93,7 +93,7 @@ function Footer() {
       <a
         className="md:place-self-center md:justify-self-end hover:opacity-60"
         target="_blank"
-        href="https://github.com/"
+        href="https://github.com/parthvyas7/storystream"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

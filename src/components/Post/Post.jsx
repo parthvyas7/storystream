@@ -68,7 +68,7 @@ const Post = ({ post }) => {
 
   const submit = async (data) => {
     setLoading(true);
-    data.title = slugTransform(data.title);
+    data.slug = slugTransform(data.title);
 
     if (post) {
       const file = data.image[0]

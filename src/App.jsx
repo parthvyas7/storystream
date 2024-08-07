@@ -11,7 +11,7 @@ import { themeChange } from "theme-change";
 function App() {
   const [loading, setLoading] = useState();
   const dispatch = useDispatch();
-  const authStatus = useSelector((state) => state.auth.status);
+  const authStatus = useSelector((state) => state.auth.authStatus);
 
   useEffect(() => {
     themeChange(false);

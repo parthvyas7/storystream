@@ -10,7 +10,7 @@ const Protected = ({ children, authentication = true }) => {
     // Redirect users to the login page if they should be authenticated but aren't.
     // if (authentication && authStatus !== authentication) navigate("/login");
     // Redirect users to the home page if they shouldn't be authenticated but are.
-    if (!authentication && authStatus !== authentication) navigate("/");
+    if (authStatus !== authentication) navigate("/");
     setLoader(false);
   }, [authentication, authStatus, navigate]);
   return loader ? (
