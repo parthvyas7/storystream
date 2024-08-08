@@ -6,7 +6,7 @@ Modern blogging platform optimized for concise content delivery, catering to tod
 
 ## Demo
 
-[Demo]()
+[Demo](https://main.d1s3h2qizym52j.amplifyapp.com/)
 
 ## Screenshots
 
@@ -26,12 +26,16 @@ Modern blogging platform optimized for concise content delivery, catering to tod
 
 ## Optimizations
 
-- Utilised built-in React Optimizations for reduced average page response time by 500ms
+- Utilised built-in React Optimizations for reduced average [page response time](https://pagespeed.web.dev/analysis/https-main-d1s3h2qizym52j-amplifyapp-com/n4dmnuj0jc?form_factor=mobile) by 500ms
 - Optimistic UI updates for instant feedback on user actions
-- Lazy loading image assets reducing initial load time
+- Lazy loading image assets reducing [initial load time](https://gtmetrix.com/reports/main.d1s3h2qizym52j.amplifyapp.com/hzpcAGny/)
 - Caching at client side with LocalStorage for less API calls
 - Responsive Web UI, Mobile friendly
 - Better UX with several page-wide themes
+
+![Page perfomance report 1](/public/screenshots/Page%20perf%201.png)
+
+![Page performance report 2](/public/screenshots/Page%20perf%202.png)
 
 ## Run Locally
 
