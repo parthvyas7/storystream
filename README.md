@@ -79,7 +79,7 @@ To get preview of it
 
 ## Libraries/Frameworks Used
 
-- **Frontend:** React, React-Router, TinyMCE-react rich text editor, HTML react parser, react hook form, redux toolkit, react-toastify, TailwindCSS with daisyUI
+- **Frontend:** React, React-Router, TinyMCE-react rich text editor, HTML react parser, react hook form, redux toolkit, react-toastify, TailwindCSS with daisyUI, Vitejs
 - **Backend:** Appwrite BaaS
 
 ## License
