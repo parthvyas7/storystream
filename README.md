@@ -4,6 +4,10 @@
 
 Modern blogging platform optimized for concise content delivery, catering to today's fast-paced digital consumption habits.
 
+## Demo
+
+[Demo]()
+
 ## Screenshots
 
 ![Landing page](/public/screenshots/Landing.png)
@@ -11,10 +15,6 @@ Modern blogging platform optimized for concise content delivery, catering to tod
 ![Feed](/public/screenshots/Feed.png)
 ![Post view](/public/screenshots/Post%20view.png)
 ![Add post](/public/screenshots/Create%20post.png)
-
-## Demo
-
-[Demo]()
 
 ## Features
 
@@ -29,9 +29,9 @@ Modern blogging platform optimized for concise content delivery, catering to tod
 - Utilised built-in React Optimizations for reduced average page response time by 500ms
 - Optimistic UI updates for instant feedback on user actions
 - Lazy loading image assets reducing initial load time
-- Caching at client side with LocalStorage for less API calls 
+- Caching at client side with LocalStorage for less API calls
 - Responsive Web UI, Mobile friendly
-- Better UX with several page-wide themes 
+- Better UX with several page-wide themes
 
 ## Run Locally
 
@@ -61,7 +61,7 @@ Start the server
 
 ## Environment Variables
 
-See `.env.sample` 
+See `.env.sample`
 
 ## Deployment
 
