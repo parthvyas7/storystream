@@ -25,7 +25,7 @@ const Input = forwardRef(function Input({ type = "text", ...props }, ref) {
       );
     case "file":
       return (
-        <div className="tooltip" data-tip="Max file size 50MB">
+        <div className="tooltip" data-tip="Max file size 200KB">
           <input
             type="file"
             className="file-input w-full max-w-xs"
