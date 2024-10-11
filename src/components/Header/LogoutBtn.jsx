@@ -16,7 +16,7 @@ const toastTheme =
     : "dark";
 const notify = () =>
   toast.success("Logged out!", {
-    position: "top-right",
+    position: "bottom-right",
     autoClose: 5000,
     hideProgressBar: false,
     closeOnClick: true,

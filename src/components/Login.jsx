@@ -22,7 +22,7 @@ const Login = () => {
       : "dark";
   const notifyOnSuccess = (user) =>
     toast.success(`Welcome! back ${user}`, {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
@@ -33,7 +33,7 @@ const Login = () => {
     });
   const notifyOnError = () =>
     toast.error("Something went wrong!", {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,

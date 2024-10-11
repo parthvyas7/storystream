@@ -31,6 +31,8 @@ const PostCard = ({ $id, title, featuredImage, $createdAt, author }) => {
             src={dbService.getFilePreview(featuredImage)}
             className="aspect-auto object-cover"
             alt={title}
+            height={300}
+            width={300}
           />
         </figure>
         <div className="card-body">

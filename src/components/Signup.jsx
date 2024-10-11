@@ -24,7 +24,7 @@ function Signup() {
       : "dark";
   const notifyOnSuccess = (user) =>
     toast.success(`Welcome! back ${user}`, {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
@@ -35,7 +35,7 @@ function Signup() {
     });
   const notifyOnError = () =>
     toast.error("Something went wrong!", {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,

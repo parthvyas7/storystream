@@ -29,7 +29,7 @@ const Post = ({ post }) => {
       : "dark";
   const notifyOnUpdate = () =>
     toast.success("Post updated!", {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
@@ -40,7 +40,7 @@ const Post = ({ post }) => {
     });
   const notifyOnCreate = () =>
     toast.success("Kudos 👏 Post published", {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
@@ -51,7 +51,7 @@ const Post = ({ post }) => {
     });
   const notifyAfterError = () =>
     toast.error("Something went wrong!!!", {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,

@@ -27,7 +27,7 @@ const ViewPost = () => {
       : "dark";
   const notify = () =>
     toast.success("Post deleted!", {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
