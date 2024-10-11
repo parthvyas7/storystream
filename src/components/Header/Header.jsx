@@ -14,7 +14,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <div className="navbar bg-base-100 flex flex-wrap">
+    <div className="navbar bg-base-100 flex flex-wrap flex-col md:flex-row">
       <div className="flex-1">
         <Link to="/">
           <img
@@ -28,7 +28,7 @@ const Header = () => {
           <p className="m-2 text-xl">StoryStream</p>
         </Link>
       </div>
-      <div className="space-x-4">
+      <div className="flex flex-wrap gap-2 justify-end">
         <div className="form-control">
           {authStatus &&
             (location.pathname === "/" || location.pathname === "/drafts") && (

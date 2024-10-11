@@ -135,7 +135,7 @@ const ViewPost = () => {
             </span>
           </div>
         </div>
-        <div className="flex-shrink-0 flex space-x-2">
+        <div className="flex flex-wrap gap-2">
           {isAuthor && (
             <>
               <Link to={`/edit-post/${post.$id}`}>

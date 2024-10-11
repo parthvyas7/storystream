@@ -52,9 +52,9 @@ const Home = () => {
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img
               src="/assets/Illustrations_reading-side.svg"
-              className="max-w-sm"
+              className="max-w-xs md:max-w-lg"
             />
-            <div>
+            <div className="text-center md:text-left">
               <h1 className="text-5xl font-bold">
                 Empowering Writers, One Post at a Time
               </h1>

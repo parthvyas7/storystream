@@ -25,7 +25,7 @@ const PostCard = ({ $id, title, featuredImage, $createdAt, author }) => {
   };
   return (
     <Link to={`/post/${$id}`}>
-      <div className="card card-compact bg-base-100 w-60 max-h-80 shadow hover:shadow-lg active:scale-95">
+      <div className="card card-compact bg-base-100 w-full  max-h-80 shadow hover:shadow-lg active:scale-95">
         <figure>
           <img
             src={dbService.getFilePreview(featuredImage)}
