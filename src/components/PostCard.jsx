@@ -1,6 +1,27 @@
 import dbService from "../appwrite/config";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
+const ImageWithPlaceholder = ({ src, alt, height, width, className }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  return (
+    <div className={`relative ${className}`} style={{ height, width }}>
+      {!imageLoaded && (
+        <div className="absolute inset-0 bg-gray-200 animate-pulse" />
+      )}
+      <img
+        src={src}
+        alt={alt}
+        className={`w-full h-full object-cover ${
+          imageLoaded ? "opacity-100" : "opacity-0"
+        }`}
+        style={{ transition: "opacity 0.3s" }}
+        onLoad={() => setImageLoaded(true)}
+      />
+    </div>
+  );
+};
 const PostCard = ({ $id, title, featuredImage, $createdAt, author }) => {
   const getRelativeDate = (date) => {
     const now = new Date();
@@ -25,14 +46,14 @@ const PostCard = ({ $id, title, featuredImage, $createdAt, author }) => {
   };
   return (
     <Link to={`/post/${$id}`}>
-      <div className="card card-compact bg-base-100 w-full  max-h-80 shadow hover:shadow-lg active:scale-95">
-        <figure>
-          <img
+      <div className="card card-compact bg-base-100 w-full max-h-80 shadow hover:shadow-lg active:scale-95">
+        <figure className="w-full">
+          <ImageWithPlaceholder
             src={dbService.getFilePreview(featuredImage)}
-            className="aspect-auto object-cover"
             alt={title}
-            height={300}
-            width={300}
+            height="180px"
+            width="250px"
+            className="aspect-auto"
           />
         </figure>
         <div className="card-body">

@@ -94,7 +94,7 @@ const ViewPost = () => {
           alt={post.title}
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="relative bg-gradient-to-t from-gray-900/60 to-gray-900/10 pt-32 sm:pt-48 lg:pt-64">
+        <div className="relative bg-gradient-to-t from-gray-900/60 to-gray-900/10 dark:bg-gradient-to-t dark:from-gray-900 dark:to-gray-600 pt-32 sm:pt-48 lg:pt-64">
           <div className="p-4 sm:p-6">
             <h1 className="text-white text-3xl font-bold">{post.title}</h1>
           </div>
