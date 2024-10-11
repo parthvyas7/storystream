@@ -21,7 +21,7 @@ Modern blogging platform optimized for concise content delivery, catering to tod
 - Create/Update posts with rich text editor, Save drafts
 - User authentication, Login/Signup without hassle
 - Better post reading experiance
-- SEO-friendly
+- SEO-friendly & deployed with AWS Amplify
 - Enhanced accessibility with ARIA attributes
 
 ## Optimizations
