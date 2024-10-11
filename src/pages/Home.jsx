@@ -32,7 +32,7 @@ const Home = () => {
       isMounted = false;
     };
   }, [authStatus, dispatch, posts]);
-  
+
   const filteredPosts = posts.filter((post) =>
     post.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -85,7 +85,7 @@ const Home = () => {
 
   return (
     <div className="w-full">
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 lg:grid-cols-4 lg:gap-8">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-5">
         {filteredPosts.map((post) => {
           if (post.status === "active") {
             return (
@@ -94,7 +94,7 @@ const Home = () => {
               </div>
             );
           }
-        })} 
+        })}
       </div>
     </div>
   );

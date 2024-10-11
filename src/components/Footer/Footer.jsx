@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="footer bg-base-100 text-base-content items-center justify-normal p-4">
+    <footer className="footer bg-base-100 text-base-content items-center justify-normal p-4 static bottom-0">
       <aside className="grid-flow-col items-center">
         <p className="italic">Explore. Express. Evolve.</p>
       </aside>
